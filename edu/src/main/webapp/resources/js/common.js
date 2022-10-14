@@ -60,13 +60,26 @@ function fn_common_ajax(urlData,postData,async){
 		cache : false,
 		async : async,
 		type : "POST",
+		beforeSend : function(xmlHttpRequest){
+			xmlHttpRequest.setRequestHeader("AJAX","true");
+		},
 		success : function(data){
 			alert(data);
 			fn_callBack(data);
 		},
-		error : function(request,status,error){
+		/*error : function(request,status,error){
 			alert("code:"+request.status+"\n"+"message:"+request.responseText+"\n"+"error:"+error);
 			
+		}*/
+		error : function(e){
+			console.log("ERROR: ", e);
+			if(e.status == 401){
+				alert("세션이 종료되었습니다. 3초 후 로그인 페이지로 이동합니다.", "error");
+				setTimeout("location.href='/board/openBoardList.do'",3000);
+			} else if(e.responseJSON.isException == true){
+				alert(e.responseJSON.returnExceptionMsg);
+				setTimeout("location.href='board/openBoardList.do", 1000);
+			}
 		}
 	});
 };

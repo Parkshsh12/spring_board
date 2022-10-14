@@ -25,6 +25,7 @@ public class BoardServiceImpl implements BoardService {
 
 	@Override
 	public void insertBoard(BoardDTO boardDto) throws Exception {
+		boardDto.setBoardSubject("sdfsdafsdacuiewhafjkdshicfwnjakcnhsdicㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁ러아ㅣ넘팰ㅈ무파ㅣㅇ너챚마리ㅜㄴ애ㅑ추미;ㅈㄷ라ㅣ느채ㅑㅜㅈ마ㅣㄹ;ㅇㄴㅁ랴ㅐㄴ우ㅏㅣ렁나러안리ㅓㄴ어린어린닌닌ㄴㄹㄴ러ㅑㄴㄹ너ㅑㄹㄴㄹㄴㅀㄴㅅㄽㄴㄹㅇㅅㄹㄴㅅㅇㄹㄴㅅㅇㄽㄴㅁㄹㅇㅅㅁㄴㄹㅇㅅㄴㅁㄹㅇㅅㅁㄴㄽㅇㄻㄴㅅㅇㄻㄴㅅㅇㄻㅅ");
 		boardDao.insertBoard(boardDto);
 	}
 
@@ -50,6 +51,8 @@ public class BoardServiceImpl implements BoardService {
 	public BoardDTO updateBoard(BoardDTO boardDto) throws Exception {
 		
 		BoardDTO boardDTO = new BoardDTO();
+		
+		boardDto.setBoardSubject("ㅁㄴㅇㅁㅇㅁㄴㅇㄴㅁㅇㅁㄴㅇㅁㄴㅇㅁㄴㅇㄴㅁㅇㅁㄴㅇㅈㅂㄷㅁㄴㅇㅁㄴㅇㅁㄴㅇㅁㄴㅇㅁㄴㅇㅁㄴㅇㅁㄴㅇㅁㄴㅇㅁㄴㅇㅁㄴㅇㅁㄴㅇㅁㄴㅇㅁㄴㅇㅁㄴㅇㅁㅈㄷㅂㄷㅂㅈㄷㅂㅈㄷㅂㅈㄷㅂㅈㄷㄴㅇㅁ");
 		
 		int updateCnt = boardDao.updateBoard(boardDto);
 		
