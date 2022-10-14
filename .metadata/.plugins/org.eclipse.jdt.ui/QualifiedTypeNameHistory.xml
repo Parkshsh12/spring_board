@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.junit.Test"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="lombok.Data"/>
+<fullyQualifiedTypeName name="com.seedit.edu.common.staticValue.BoardUINameEnum"/>
+<fullyQualifiedTypeName name="org.apache.log4j.Logger"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
+<fullyQualifiedTypeName name="java.lang.SuppressWarnings"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.seedit.edu.sample.dto.BoardDTO"/>
+<fullyQualifiedTypeName name="com.seedit.edu.common.dao.AbstractDAO"/>
+<fullyQualifiedTypeName name="com.seedit.edu.sample.service.BoardServiceImpl"/>
+<fullyQualifiedTypeName name="com.seedit.edu.sample.service.BoardService"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+<fullyQualifiedTypeName name="com.seedit.edu.sample.dao.BoardDAO"/>
+</qualifiedTypeNameHistroy>

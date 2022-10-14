@@ -1,0 +1,5 @@
+package com.seedit.edu.common.staticValue;
+
+public enum BoardUINameEnum {
+
+}

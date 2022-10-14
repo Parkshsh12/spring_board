@@ -1,0 +1,5 @@
+package com.seedit.edu.common.logger;
+
+public class LoggerInterceptor {
+
+}

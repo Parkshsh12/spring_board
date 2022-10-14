@@ -1,0 +1,5 @@
+package com.seedit.edu.sample.dto;
+
+public class BoardDTO {
+
+}

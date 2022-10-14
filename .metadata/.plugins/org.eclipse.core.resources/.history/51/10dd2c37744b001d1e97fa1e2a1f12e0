@@ -1,0 +1,15 @@
+package com.seedit.edu.common.staticValue;
+
+public enum BoardUINameEnum {
+	
+	JSP_BOARD_LIST("sample/boardList");
+	
+	private String jspFileName;
+	BoardUINameEnum (String code){
+		this.jspFileName = code;
+	}
+	
+	public String getJSPFileName(){
+		return this.jspFileName;
+	}
+}

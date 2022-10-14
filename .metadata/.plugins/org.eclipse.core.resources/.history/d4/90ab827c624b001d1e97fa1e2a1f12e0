@@ -1,0 +1,34 @@
+package com.seedit.edu.sample.dto;
+
+import java.util.Date;
+
+import lombok.Data;
+
+/**
+ * □■□■□■□■□■□■□■□■□■□■ [TYPES] □■□■□■□■□■□■□■□■□■□■
+ * @파일명 : BoardDto.java
+ * @작성일자 : ****. **. **.
+ * @작성자 : 박승현
+ * @프로젝트명 : edu
+ * @설명 : 게시판 정보 데이터 전송 객체
+ * □■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■
+ */
+
+@Data
+public class BoardDTO {
+ 
+    int boardSeq;
+    int boardReRef;
+    int boardReLev;
+    int boardReSeq;
+    String boardWriter;
+    String boardSubject;
+    String boardContent;
+    int boardHits;
+    String delYn;
+    String insUserId;
+    Date insDate;
+    String updUserId;
+    Date updDate;
+    
+}
